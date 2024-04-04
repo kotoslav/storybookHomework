@@ -33,3 +33,21 @@ export const Archived = {
     },
   },
 };
+
+export const TaskAlarm = {
+  args: {
+    task: {
+      ...Default.args.task,
+      state: 'TASK_ALARMED',
+    },
+  },
+};
+
+export const Checked = {
+  args: {
+    task: {
+      ...Default.args.task,
+      state: 'TASK_CHECKED',
+    },
+  },
+};
